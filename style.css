@@ -420,4 +420,175 @@ body {
     text-align: center;
   }
 }
+
+/* NOW FROM HERE ONWARDS I TOOK THE HELP CLAUDE AI TO ADJUST THIS WEBSITE WHEN OPENED IN A SMARTPHONE :3 */
+@media (max-width: 768px) {
+  
+  /* NAVBAR STACKING FOR MOBILE */
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+    padding: 8px 5px;
+  }
+  
+  /* Logo size reduction - CHANGE width to adjust logo */
+  .nav-logo {
+    width: 70px;
+  }
+  
+  .logo {
+    width: 70px;
+    height: 50px;
+  }
+  
+  /* Address section - REMOVE "display: none;" to show address on mobile */
+  .nav-address {
+    display: none;
+  }
+  
+  /* Search bar full width and adjusted - CHANGE width percentage */
+  .nav-search {
+    width: 100%;
+    order: 3;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .search-select {
+    width: 40px;
+  }
+  
+  /* Hide country selector on mobile - REMOVE "display: none;" to show */
+  .country {
+    display: none;
+  }
+  
+  /* Sign in section - reduce text - CHANGE font-size numbers */
+  .nav-signin {
+    font-size: 0.65rem;
+    min-width: fit-content;
+  }
+  
+  /* Returns section - reduce text */
+  .returns {
+    font-size: 0.65rem;
+    min-width: fit-content;
+  }
+  
+  /* Cart - more visible */
+  .nav-cart {
+    font-size: 0.75rem;
+  }
+  
+  /* PANEL ADJUSTMENTS */
+  .panel {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .panel-all {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .Panel-options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Panel-options p {
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  /* HERO SECTION ADJUSTMENTS - CHANGE height to adjust banner */
+  .hero-section {
+    height: 250px;
+  }
+  
+  .hero-msg {
+    width: 90%;
+    height: auto;
+    font-size: 0.7rem;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* PRODUCT BOXES - SINGLE COLUMN ON MOBILE - CHANGE width % */
+  .box {
+    width: 95%;
+    height: auto;
+    margin: 10px auto;
+    padding: 15px 0px 10px;
+  }
+  
+  /* Product image height - CHANGE height for taller/shorter images */
+  .box1-image {
+    height: 200px;
+  }
+  
+  .box-content {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+  
+  .box-content h2 {
+    font-size: 0.9rem;
+  }
+  
+  .box-content a {
+    font-size: 0.75rem;
+  }
+  
+  /* FOOTER ADJUSTMENTS FOR MOBILE */
+  .footer__main {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 16px;
+  }
+  
+  .footer__col {
+    max-width: 100%;
+  }
+  
+  .footer__col-heading {
+    font-size: 13px;
+  }
+  
+  .footer__col-list a {
+    font-size: 12px;
+  }
+  
+  .footer__locale {
+    padding: 20px 10px;
+  }
+  
+  .footer__selectors {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .footer__select {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .footer__legal {
+    flex-direction: column;
+    text-align: center;
+    padding: 12px 10px;
+  }
+  
+  .footer__legal a,
+  .footer__legal span {
+    font-size: 11px;
+    display: block;
+    margin: 4px 0;
+  }
+}
+
  
